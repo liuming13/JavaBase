@@ -4,7 +4,7 @@ package com.ming.afe.sort;
  * @author Mingl lxm210787@gmail.com
  * @date 2022/9/12 - 21:19
  */
-public class SelectionSort extends SortExample {
+public class SelectionSort extends SortExampleAbs {
     public void sort(Comparable[] a) {
         int N = a.length;
         for (int i = 0; i < N; i++) {

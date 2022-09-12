@@ -7,7 +7,7 @@ import edu.princeton.cs.algs4.StdOut;
  * @author Mingl lxm210787@gmail.com
  * @date 2022/9/12 - 21:23
  */
-public abstract class SortExample {
+public abstract class SortExampleAbs {
     public abstract void sort(Comparable[] a);
 
     public boolean less(Comparable v, Comparable w) {

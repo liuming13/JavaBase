@@ -1,6 +1,9 @@
 package com.ming.afe.sort;
 
+import org.junit.Test;
+
 /**
+ * TODO 选择排序
  * @author Mingl lxm210787@gmail.com
  * @date 2022/9/12 - 21:19
  */
@@ -19,7 +22,8 @@ public class SelectionSort extends SortExampleAbs {
         }
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void selectionSortTest() {
         new SelectionSort().test();
     }
 }
